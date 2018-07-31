@@ -618,9 +618,14 @@ footer a:hover{
  src: url("../fonts/pba.ttf");
 }
 
+.fontpba {
+  font-family: "pba";
+}
+
+
 /*******************************Couleurs***************************************/
 
-.bg-grey{
+.backgroundDarkGrey{
   background-color: #1d1d1e;
 }
 
@@ -636,7 +641,7 @@ footer a:hover{
   color: #d8383f;
 }
 
-.cW{
+.colorWhite{
   color: white;
 }
 
@@ -807,20 +812,14 @@ footer a:hover{
   font-size: 24px;
 }
 
-.info-btn {
+.bG1,
+.bG2{
   border: 3px solid white;
-  color:white;
 }
-.info-btn a {
-  color:inherit;
-}
-.info-btn:hover {
-  color: #D8383F;
-  border-color: #D8383F;
-  fill: #D8383F;
-}
+
 .captionContainer a,
-.info-btn a,
+.bG1 a,
+.bG2 a,
 .oeuvres{
   text-decoration: none;
 }
@@ -925,20 +924,8 @@ footer a:hover{
   .culture{
     border: 0;
   }
+
 }
-.nav {
-  font-family: Arial, sans-serif;
-  font-size:1.2em;
-}
-.nav a:hover {
-  color:#D8383F;
-}
-input[type=search] {
-  border-radius:0;
-}
-.ahover {
-  color:#fff;
-}
-.ahover:hover {
-  color:#D8383F;
-}
+
+/*************************Reste video et fin header à faire, slider (images écrasées) et puces, les hover
+    }
